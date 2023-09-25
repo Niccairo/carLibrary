@@ -19,7 +19,6 @@ public class Tester {
             Integer suzukiId = brandDao.insertBrand(suzuki);
             Integer teslaId = brandDao.insertBrand(tesla);
             Integer jaguarId = brandDao.insertBrand(jaguar);
-
             Car portofino = new Car(ferrariId,"Portofino","Red",1989,150.000);
             Car purosangue = new Car(ferrariId,"Purosangue","Black",1999,10.000);
             Car  f90Stradale = new Car(ferrariId,"F90 Stradale","Yellow",2005,200.000);
@@ -41,7 +40,6 @@ public class Tester {
             Car fPace = new Car(jaguarId,"F-PACE","Blue",2019,100.000);
             Car  xF = new Car(jaguarId,"XF","White",2018,80.000);
             Car ePace = new Car(jaguarId,"E-PACE","Blue",2017,60.000);
-
             CarDao carDao = new CarDao();
             //carDao.createTable();
             carDao.insertCar(portofino);
